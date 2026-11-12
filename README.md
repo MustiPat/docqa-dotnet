@@ -1,5 +1,7 @@
 # DocQA: document question-answering API (.NET 8)
 
+[![CI](https://github.com/MustiPat/docqa-dotnet/actions/workflows/ci.yml/badge.svg)](https://github.com/MustiPat/docqa-dotnet/actions/workflows/ci.yml)
+
 A small, production-minded REST API that answers questions from your own documents and cites its sources. It shows the retrieval-augmented generation (RAG) pattern end to end: ingest, chunk, retrieve, answer.
 
 It runs with **no API key** in an offline extractive mode, and switches to any OpenAI-compatible chat model when you set three environment variables.
